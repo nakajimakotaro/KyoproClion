@@ -4,10 +4,9 @@
 using namespace std;
 using namespace boost;
 
+typedef int64_t INT;
+
 void Resolve(istream &is, ostream &os) {
-    int i;
-    is >> i;
-    os << i * 2;
 }
 
 #if LOCAL
